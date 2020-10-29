@@ -92,7 +92,7 @@ void fillLines(int n1, int n2, string currLine){
 void readFile(vector<vector<vector<int>>> & stationGraph){
      string line,currLine;
      ifstream fin;
-     fin.open("Files/metro.txt");
+     fin.open("metro.txt");
 
      while(!fin.eof()){
           getline(fin,line);
